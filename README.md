@@ -23,4 +23,4 @@ Instálala primero y empieza a meter datos desde el icono: en iPhone, la app ins
 Funciona con Tesseract.js (gratuito, se ejecuta en el propio móvil; la foto no se envía a ningún servidor). La primera vez descarga el lector (unos MB) y necesita internet. Revisa siempre la lista antes de añadirla al almacén.
 
 ## Actualizar
-Cambia `index.html` y vuelve a subir. Si cambias archivos de la app, sube también el número de `CACHE` en `sw.js` (por ejemplo `ohana-v2`).
+Estructura: `index.html` (estructura), `styles.css` (diseño), `app.js` (lógica), `sw.js` y `manifest.webmanifest` (instalación). Tras cambiar cualquier archivo, sube también el número de `CACHE` en `sw.js` (por ejemplo `ohana-v4`) para que el móvil recargue la versión nueva.
